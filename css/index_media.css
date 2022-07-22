@@ -67,6 +67,7 @@ nav p.close{
   right: 15px;
   top: 24px;
   background-color: red;
+  display: block;
 }
 header>.btn{
     display:block;
@@ -241,6 +242,9 @@ nav>ul>li{
 nav>ul>li>a{
         line-height:12vh;
       } 
+nav p.close{
+  display: block;
+}
 header>.btn{
   display:block;
   top: 20px;
