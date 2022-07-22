@@ -71,6 +71,7 @@ nav p.close{
   right: 32px;
   top: 24px;
   background-color: red;
+  display:none;
 }
 /* header btn */
 /* btn */

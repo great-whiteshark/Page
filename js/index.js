@@ -29,14 +29,15 @@ function subMenu(){
 }
 
 function topScroll(){
-    $('aside .top').on('click', function(e){
+    $('aside p.top').on('click', function(e){
         $('html,body').animate({scrollTop:0}, 800);
+    return false;
     });
 }
 
 // tablet
 function tabletNav(){
-    $('header p.btn').on('click',function(e){
+    $('header>p.btn').on('click',function(e){
         $('nav').animate({left: '0'},800);
         $(this).hide();
     });
@@ -59,7 +60,7 @@ function tabletNav(){
 }
 // mobile
 function mobileNav(){
-    $('header p.btn').on('click',function(e){
+    $('header>p.btn').on('click',function(e){
         $('nav').animate({left: '0'},800);
         $(this).hide();
     });
